@@ -85,7 +85,7 @@ footer {
 /*Set font sizes, text alignment and colours for different types of headings*/
 h1 {
 	color: darkred; 
-	font-size: 25px;
+	font-size: 10vw;
 	font-weight: 600; /*Sets boldness of text. (range is 100-900, where 400 is normal and 700 is bold)*/
 	text-align: center;
 }
