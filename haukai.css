@@ -1,0 +1,123 @@
+/*Sets webpage elements height to max, to avoid display issues (white-space) on varied platforms */
+html {
+	height: 100%;
+}
+
+/*Set body height, width, and margin so that it doesn't create border space around page*/
+body {
+	min-height: 100%;  
+	width: 100%;
+	margin: 0;
+	background-color: black;
+}
+
+/*Defines header background colour */
+header {
+	background-color: white;
+}
+
+/*Defining navigation bar font size, background colour, bar width, and top & bottom padding*/
+nav{
+    font-size: 16px;
+    width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+  }
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+/*Introduce columns group and set to fill page*/
+.col-container {
+  display: table; /*Set to behave like a table (grid)*/
+  width: 100%;
+  /*min-height: calc(100vh - 91px); Set height of content to 100% of view minus the height of the footer*/
+}
+
+/*Define characteristics, such as display, background, width, and padding for each column*/
+.col1 {
+	text-align: center;
+	display: table-cell;
+	width: 25%;
+}
+
+/*Define width and height for all different types of images used*/
+#img1 {
+	width: 660px;
+	height: 400px;
+}
+
+#img2 {
+	width: 100%;
+	height: 100%;
+}
+#img3 {
+	width: 120px;
+	height: 80px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+/*Define footer display, background colour, height, width, and position*/
+footer {
+   padding: 10px;
+   background-color: gray;
+   text-align: center;
+}
+
+/*Set font sizes, text alignment and colours for different types of headings*/
+h1 {
+	color: darkred; 
+	font-size: 25px;
+	font-weight: 600; /*Sets boldness of text. (range is 100-900, where 400 is normal and 700 is bold)*/
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Mea Culpa';font-size: 10px; /*Web linked font*/
+	color: white;
+	font-size: 3rem; /*Set the font size as three times bigger than default*/
+	text-align: center
+}
+
+/*Set font sizes, margin position and colour for paragraph text*/	
+p{
+	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
+	color: white;
+	font-size: 1rem; /*1rem = default size for particular font*/
+	margin-left: 1rem;
+	text-align: center;
+}		
+
+.privacy {
+	color: white;
+	font-size: 1rem;
+}
+
+/*Style hyperlinks as plain (no underline or special font) and set colour*/
+.a {
+    text-decoration: none;
+    color: red;
+}
+
+/*Change hyperlink colour to red as mouse pointer hovers over it*/
+.a:hover {
+    color: green;
+}
