@@ -53,19 +53,27 @@ nav{
 	width: 25%;
 }
 
-/*Define width and height for all different types of images used*/
+/*Define colour of alt, width and height for all different types of images used*/
 #img1 {
-	width: 660px;
-	height: 400px;
+	max-width: 33%;
+	color: white;
 }
 
 #img2 {
 	width: 100%;
 	height: 100%;
+	color: white;
 }
+
 #img3 {
 	width: 120px;
 	height: 80px;
+	color: white;
+}
+
+#img4 {
+	max-width: 100%;
+	color: white;
 }
 
 .center {
@@ -93,7 +101,7 @@ h1 {
 h2 {
 	font-family: 'Mea Culpa';font-size: 10px; /*Web linked font*/
 	color: white;
-	font-size: 3rem; /*Set the font size as three times bigger than default*/
+	font-size: 20vw; /*Set the font size as three times bigger than default*/
 	text-align: center
 }
 
@@ -101,14 +109,14 @@ h2 {
 p{
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 1rem; /*1rem = default size for particular font*/
-	margin-left: 1rem;
+	font-size: 1vw; /*1rem = default size for particular font*/
+	margin-left: 1vw;
 	text-align: center;
 }		
 
 .privacy {
 	color: white;
-	font-size: 1rem;
+	font-size: 1vw;
 }
 
 /*Style hyperlinks as plain (no underline or special font) and set colour*/
