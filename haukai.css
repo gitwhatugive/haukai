@@ -85,9 +85,13 @@ nav{
 
 /*Define footer display, background colour, height, width, and position*/
 footer {
-   padding: 10px;
-   background-color: gray;
-   text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: gray;
+	color: white;
+	text-align: center;
 }
 
 /*Set font sizes, text alignment and colours for different types of headings*/
