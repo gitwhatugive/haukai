@@ -120,7 +120,6 @@ header {
 }
 
 iframe {
-	display: block;
 	text-align: center;
 }
 
@@ -164,7 +163,7 @@ h2 {
 p{
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 2.5vw; /*1rem = default size for particular font*/
+	font-size: 4vw; /*1rem = default size for particular font*/
 	text-align: center;
 }		
 
