@@ -21,7 +21,7 @@ header {
 /* Style the top navigation bar */
 .topnav {
 	overflow: hidden;
-	background-color: black;
+	background-color: blue;
 	font-size: 1vw;
 }
 /* Style the topnav links */
@@ -30,7 +30,7 @@ header {
 	display: block;
 	color: white;
 	text-align: center;
-	padding-right: 1vw;
+	padding-right: 1.5vw;
 }
 
 * {
