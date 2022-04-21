@@ -37,8 +37,49 @@ header {
 	box-sizing: border-box;
   }
   
-/* Create two equal columns that float next to each other */
+/* Create */
 .column {
+	float: left;
+	width: 100%;
+	font-size: 2vw;
+	background-color: black;
+  }
+
+@media screen and (max-width: 640px) {
+	.column2 {
+		width: 100%;
+	  }
+  }
+  
+@media screen and (min-width: 641px) {
+	  .column2 {
+		  width: 50%;
+  }
+}
+
+/* Create two equal columns that float next to each other */
+.column2 {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	  font-size: 2vw;
+	  background-color: black;
+	}
+
+@media screen and (max-width: 640px) {
+	  .column2 {
+		  width: 100%;
+		}
+	}
+	
+	@media screen and (min-width: 641px) {
+		.column2 {
+			width: 50%;
+	}
+}
+
+/* Create three equal columns that float next to each other */
+.column3 {
 	float: left;
 	width: 33%;
 	padding: 10px;
@@ -46,11 +87,6 @@ header {
 	background-color: black;
   }
 
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
 
 @media screen and (max-width: 640px) {
 	  .column {
@@ -64,25 +100,11 @@ header {
 	}
 }
 
-.column2 {
-	float: left;
-	width: 50%;
-	padding: 10px;
-	font-size: 2vw;
-	background-color: black;
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
   }
-
-@media screen and (max-width: 640px) {
-	  .column2 {
-		  width: 100%;
-	  }
-  }
-
-@media screen and (min-width: 641px) {
-	.column2 {
-		width: 50%;
-	}
-}
 
 /*Introduce columns group and set to fill page*/
 .col-container {
