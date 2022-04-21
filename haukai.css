@@ -114,7 +114,7 @@ header {
 
 /*Define footer display, background colour, height, width, and position*/
 footer {
-	position: fixed;
+	position:inherit;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -139,14 +139,14 @@ h1 {
 h2 {
 	font-family: 'Mea Culpa';/*Web linked font*/
 	color: white;
-	font-size: 20vw; /*Set the font size as three times bigger than default*/
+	font-size: 5vw; /*Set the font size as three times bigger than default*/
 	text-align: center;
 }
 
 h3 {
 	font-family: 'Mea Culpa';/*Web linked font*/
 	color: white;
-	font-size: 20vw; /*Set the font size as three times bigger than default*/
+	font-size: 5vw; /*Set the font size as three times bigger than default*/
 	text-align: left;
 }
 
@@ -154,14 +154,14 @@ h3 {
 p{
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 2vw; /*1rem = default size for particular font*/
+	font-size: 1vw; /*1rem = default size for particular font*/
 	text-align: center;
 }		
 
 p1 {
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 2vw; /*1vw = 1% window view*/
+	font-size: 1vw; /*1vw = 1% window view*/
 	text-align: left;
 }
 
