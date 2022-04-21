@@ -22,6 +22,9 @@ header {
 .topnav {
 	background-color: black;
 	font-size: 1rem;
+	margin: 0 auto;
+	display: flex; 
+	justify-content: center;
 }
 /* Style the topnav links */
 .topnav a {
@@ -37,7 +40,7 @@ header {
 /* Create two equal columns that float next to each other */
 .column {
 	float: left;
-	width: 50%;
+	width: 33%;
 	padding: 10px;
 	font-size: 2vw;
 	background-color: black;
