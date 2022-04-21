@@ -60,13 +60,13 @@ header {
 
 @media screen and (min-width: 641px) and (max-width: 1007) {
 	.column {
-		width: 90%;
+		width: 33%;
 	}
 }
 
 @media screen and (min-width: 1008px) {
 	.column {
-		width: 80%;
+		width: 33%;
 	}
 }
 
