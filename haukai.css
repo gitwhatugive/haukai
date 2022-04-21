@@ -20,7 +20,7 @@ header {
 
 /* Style the top navigation bar */
 .topnav {
-	background-color: black;
+	background-color: white;
 	font-size: 1rem;
 	margin: 0 auto;
 	display: flex; 
@@ -28,7 +28,7 @@ header {
 }
 /* Style the topnav links */
 .topnav a {
-	color: white;
+	color: blue;
 	text-align: center;
 	padding-right: 1rem;
 }
