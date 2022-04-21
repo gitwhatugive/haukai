@@ -15,14 +15,14 @@ body {
 /*Defines header background colour */
 header {
 	background-color: white;
-	padding-top: 1rem;
+	padding-top: 1.3rem;
 }
 
 /* Style the top navigation bar */
 .topnav {
 	overflow: hidden;
 	background-color: black;
-	font-size: 2vw;
+	font-size: 1vw;
 }
 /* Style the topnav links */
 .topnav a {
@@ -30,7 +30,7 @@ header {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 1.5vw 1vw;
+	padding-right: 1vw;
 }
 
 * {
