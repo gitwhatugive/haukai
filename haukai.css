@@ -22,15 +22,15 @@ header {
 .topnav {
 	overflow: hidden;
 	background-color: black;
-	font-size: 1vw;
+	font-size: 3vw;
 }
 /* Style the topnav links */
 .topnav a {
-	float: left;
+	float: center;
 	display: block;
 	color: white;
 	text-align: center;
-	padding-right: 2vw;
+	padding-right: 3vw;
 }
 
 * {
