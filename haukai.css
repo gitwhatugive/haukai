@@ -27,7 +27,6 @@ header {
 /* Style the topnav links */
 .topnav a {
 	float: center;
-	display: block;
 	color: white;
 	text-align: center;
 	padding-right: 1rem;
