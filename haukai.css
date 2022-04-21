@@ -15,6 +15,7 @@ body {
 /*Defines header background colour */
 header {
 	background-color: white;
+	padding-top: 0.5rem;
 }
 
 /* Style the top navigation bar */
@@ -138,7 +139,7 @@ footer {
 	color: white;
 	text-align: center;
 	padding: 10px;
-	font-size: 0.2rem;
+	font-size: 0.6rem;
 }
 
 .privacy {
@@ -164,7 +165,7 @@ h2 {
 /*Set font sizes, margin position and colour for paragraph text*/	
 p{
 	color: white;
-	font-size: 0.4rem; /*1rem = default size for particular font*/
+	font-size: 1rem; /*1rem = default size for particular font*/
 	text-align: center;
 }		
 
