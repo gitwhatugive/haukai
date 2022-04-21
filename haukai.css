@@ -1,6 +1,5 @@
 /*Sets webpage elements height to max, to avoid display issues (white-space) on varied platforms */
 html {
-	position: relative;
 	min-height: 100%;
 }
 
@@ -9,7 +8,6 @@ body {
 	min-height: 100%;  
 	width: 100%;
 	margin: 0;
-	margin-bottom: 100px;
 	background-color: black;
 }
 
