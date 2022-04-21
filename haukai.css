@@ -9,6 +9,7 @@ body {
 	width: 100%;
 	margin: 0;
 	background-color: black;
+	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 }
 
 /*Defines header background colour */
@@ -137,11 +138,12 @@ footer {
 	color: white;
 	text-align: center;
 	padding: 10px;
+	font-size: 0.2rem;
 }
 
 .privacy {
 	color: white;
-	font-size: 1vw;
+	font-size: 3vw;
 }
 
 /*Set font sizes, text alignment and colours for different types of headings*/
@@ -161,9 +163,8 @@ h2 {
 
 /*Set font sizes, margin position and colour for paragraph text*/	
 p{
-	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 1rem; /*1rem = default size for particular font*/
+	font-size: 0.4rem; /*1rem = default size for particular font*/
 	text-align: center;
 }		
 
