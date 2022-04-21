@@ -109,6 +109,7 @@ header {
 
 iframe {
 	display: block;
+	text-align: center;
 }
 
 .center {
