@@ -154,15 +154,14 @@ h3 {
 p{
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 10vw; /*1rem = default size for particular font*/
-	margin-left: 10vw;
+	font-size: 2vw; /*1rem = default size for particular font*/
 	text-align: center;
 }		
 
 p1 {
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 10vw; /*1vw = 1% window view*/
+	font-size: 2vw; /*1vw = 1% window view*/
 	text-align: left;
 }
 
