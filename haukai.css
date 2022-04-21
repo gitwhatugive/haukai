@@ -137,7 +137,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Mea Culpa';font-size: 10px; /*Web linked font*/
+	font-family: 'Mea Culpa';/*Web linked font*/
 	color: white;
 	font-size: 20vw; /*Set the font size as three times bigger than default*/
 	text-align: center
@@ -155,8 +155,7 @@ p{
 p1 {
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: white;
-	font-size: 1vw; /*1rem = default size for particular font*/
-	margin-left: 1vw;
+	font-size: 1vw; /*1vw = 1% window view*/
 	text-align: left;
 }
 
