@@ -15,7 +15,7 @@ body {
 /*Defines header background colour */
 header {
 	background-color: white;
-	padding-top: 0.5rem;
+	padding-top: 1rem;
 }
 
 /* Style the top navigation bar */
@@ -144,7 +144,7 @@ footer {
 
 .privacy {
 	color: white;
-	font-size: 3vw;
+	font-size: 1vw;
 }
 
 /*Set font sizes, text alignment and colours for different types of headings*/
