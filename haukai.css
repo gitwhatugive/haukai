@@ -15,13 +15,13 @@ body {
 /*Defines header background colour */
 header {
 	background-color: white;
-	padding-top: 1.3rem;
+	padding: 1rem;
 }
 
 /* Style the top navigation bar */
 .topnav {
 	overflow: hidden;
-	background-color: blue;
+	background-color: black;
 	font-size: 1vw;
 }
 /* Style the topnav links */
