@@ -125,7 +125,7 @@ footer {
 	background-color: gray;
 	color: white;
 	text-align: center;
-	margin-top: 10px;
+	border: 10px;
 }
 
 .privacy {
