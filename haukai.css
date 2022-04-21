@@ -41,6 +41,7 @@ header {
 	width: 40%;
 	padding: 10px;
 	font-size: 2vw;
+	background-color: black;
   }
 
 .row:after {
@@ -150,6 +151,14 @@ p{
 	margin-left: 1vw;
 	text-align: center;
 }		
+
+p1 {
+	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
+	color: white;
+	font-size: 1vw; /*1rem = default size for particular font*/
+	margin-left: 1vw;
+	text-align: left;
+}
 
 /*Style hyperlinks as plain (no underline or special font) and set colour*/
 .a {
