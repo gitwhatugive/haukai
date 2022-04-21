@@ -37,10 +37,9 @@ header {
   
 /* Create two equal columns that float next to each other */
 .column {
-	float: left;
-	width: 50%;
+	float: center;
+	width: 40%;
 	padding: 10px;
-	background-color: white;
 	font-size: 2vw;
   }
 
