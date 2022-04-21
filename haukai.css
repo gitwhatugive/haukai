@@ -25,11 +25,9 @@ header {
 }
 /* Style the topnav links */
 .topnav a {
-	float: none;
 	color: white;
 	text-align: center;
 	padding-right: 1rem;
-	display: block;
 }
 
 * {
