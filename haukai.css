@@ -39,6 +39,7 @@ header {
   
 /* Create */
 .column {
+	float: left;
 	width: 100%;
 	font-size: 2vw;
 	background-color: black;
@@ -156,15 +157,15 @@ iframe {
 /*Define footer display, background colour, height, width, and position*/
 footer {
 	width: 100%;
-	background-color: gray;
-	color: white;
+	background-color: white;
+	color: red;
 	text-align: center;
 	padding: 10px;
 	font-size: 0.6rem;
 }
 
 .privacy {
-	color: blue;
+	color: white;
 	font-size: 1em;
 	text-align: left;
 }
