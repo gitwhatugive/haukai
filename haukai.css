@@ -41,7 +41,7 @@ header {
 .column {
 	float: left;
 	width: 100%;
-	padding: 10px;
+	padding-bottom: 1vw;
 	font-size: 2vw;
 	background-color: black;
   }
