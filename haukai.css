@@ -157,8 +157,8 @@ iframe {
 /*Define footer display, background colour, height, width, and position*/
 footer {
 	width: 100%;
-	background-color: white;
-	color: red;
+	background-color: gray;
+	color: blue;
 	text-align: center;
 	padding: 10px;
 	font-size: 0.6rem;
@@ -186,7 +186,7 @@ h2 {
 }
 
 /*Set font sizes, margin position and colour for paragraph text*/	
-p{
+p {
 	color: white;
 	font-size: 1rem; /*1rem = default size for particular font*/
 	text-align: center;
