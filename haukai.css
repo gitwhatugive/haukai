@@ -1,9 +1,9 @@
-/*Sets webpage elements height to max, to avoid display issues (white-space) on varied platforms */
+/* Sets webpage elements height to max, to avoid display issues (white-space) on varied platforms */
 html {
 	min-height: 100%;
 }
 
-/*Set body height, width, and margin so that it doesn't create border space around page*/
+/* Set body height, width, and margin so that it doesn't create border space around page. Also set background colour and font */
 body {
 	min-height: 100%;  
 	width: 100%;
@@ -12,7 +12,7 @@ body {
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 }
 
-/*Defines header background colour */
+/*Defines header background colour and padding size (1rem = 1x font size) */
 header {
 	background-color: white;
 	padding: 1rem;
@@ -33,63 +33,66 @@ header {
 	padding-right: 1rem;
 }
 
+/* Define display where padding and border is included in the width and height */
 * {
 	box-sizing: border-box;
-  }
+}
   
-/* Create */
+/* Create three equal columns that float next to each other and define column characteristics */
 .column {
 	float: left;
 	width: 33%;
 	padding-bottom: 1vw;
+	padding-right: 1vw;
 	font-size: 2vw;
 	background-color: black;
-  }
+}
 
+/* If the device screen size is less than 640px, display columns on top of each other */  
 @media screen and (max-width: 640px) {
 	.column {
 		width: 100%;
-	  }
-  }
-  
+	}
+}
+ 
+/* If the device screen size is more than 640px, display all columns next to each other */  
 @media screen and (min-width: 641px) {
 	  .column {
 		  width: 33%;
-  }
+  	  }
 }
 
-/* Create two equal columns that float next to each other */
+/* Create two equal columns that float next to each other and define column characteristics */
 .column2 {
 	  float: left;
 	  width: 50%;
 	  padding: 1vw;
 	  font-size: 2vw;
 	  background-color: black;
-	}
+}
 
+/* If the device screen size is less than 640px, display columns on top of each other */	
 @media screen and (max-width: 640px) {
 	  .column2 {
 		  width: 100%;
-		}
-	}
-	
-	@media screen and (min-width: 641px) {
-		.column2 {
-			width: 50%;
-	}
+	  }
 }
 
+/* If the device screen size is more than 640px, display all columns next to each other */	
+@media screen and (min-width: 641px) {
+		.column2 {
+			width: 50%;
+		}
+}
+
+/* Ensure there is no content after each element */
 .row::after {
 	content: "";
 	display: table;
 	clear: both;
-  }
-
-/*Define colour of alt, width and height for all different types of images used*/
-#img1 {
-	max-width: 33%;
-	color: white;
 }
+
+/* Define colour of alt, width and height for all different types of images used */
 
 #img2 {
 	width: 100%;
@@ -108,18 +111,20 @@ header {
 	color: white;
 }
 
+/* Align iframe text */
 iframe {
 	text-align: center;
 }
 
+/* Create class to center elements */
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-  }
+}
 
-/*Define footer display, background colour, height, width, and position*/
+/*Define footer display characteristics */
 footer {
 	width: 100%;
 	background-color: gray;
@@ -129,6 +134,7 @@ footer {
 	font-size: 0.6rem;
 }
 
+/* Define characteristics for the privacy statement */
 .privacy {
 	color: white;
 	font-size: 1em;
@@ -146,7 +152,7 @@ h1 {
 h2 {
 	font-family: 'Mea Culpa';/*Web linked font*/
 	color: white;
-	font-size: 7vw; /*Set the font size as three times bigger than default*/
+	font-size: 7vw; /*Set the font size as seven times bigger than default*/
 	text-align: center;
 }
 
@@ -156,14 +162,3 @@ p {
 	font-size: 1rem; /*1rem = default size for particular font*/
 	text-align: center;
 }		
-
-/*Style hyperlinks as plain (no underline or special font) and set colour*/
-.a {
-    text-decoration: none;
-    color: red;
-}
-
-/*Change hyperlink colour to red as mouse pointer hovers over it*/
-.a:hover {
-    color: green;
-}
