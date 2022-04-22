@@ -29,7 +29,7 @@ header {
 .topnav a {
 	color: blue;
 	text-align: center;
-	padding-right: 1rem;
+	padding-right: 0.8rem;
 }
 
 /* Define display where padding and border is included in the width and height */
@@ -144,7 +144,7 @@ footer {
 h1 {
 	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
 	color: darkred; 
-	font-size: 4rem;
+	font-size: 6rem;
 	font-weight: 600; /*Sets boldness of text. (range is 100-900, where 400 is normal and 700 is bold)*/
 	text-align: center;
 }
@@ -152,7 +152,7 @@ h1 {
 h2 {
 	font-family: 'Mea Culpa';/*Web linked font*/
 	color: white;
-	font-size: 2rem; /*Set the font size as seven times bigger than default*/
+	font-size: 3.5rem; /*Set the font size as seven times bigger than default*/
 	text-align: center;
 }
 
