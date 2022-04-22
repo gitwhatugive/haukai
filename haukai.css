@@ -39,7 +39,6 @@ header {
   
 /* Create */
 .column {
-	float: left;
 	width: 100%;
 	font-size: 2vw;
 	background-color: black;
@@ -165,7 +164,7 @@ footer {
 }
 
 .privacy {
-	color: white;
+	color: blue;
 	font-size: 1em;
 	text-align: left;
 }
