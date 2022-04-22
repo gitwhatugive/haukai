@@ -40,7 +40,7 @@ header {
 /* Create */
 .column {
 	float: left;
-	width: 100%;
+	width: 33%;
 	padding-bottom: 1vw;
 	font-size: 2vw;
 	background-color: black;
