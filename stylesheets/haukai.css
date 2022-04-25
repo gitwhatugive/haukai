@@ -94,7 +94,7 @@ header {
 /* Define colour of alt, width and height for all different types of images used */
 
 .img1 {
-	width: auto;
+	max-width: 100%;
 	float: right;
 	color: white;
 }
@@ -106,18 +106,26 @@ header {
 }
 
 .img3 {
-
 	color: white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: auto;
+	width: 50%;
 }
 
 .img4 {
 	float: left;
 	max-width: 100%;
 	color: white;
+}
+
+/* If the device screen size is less than 641px, center align the images in these classes */  
+@media screen and (max-width: 640px) {
+	.img1, .img4 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /* Align iframe text */
