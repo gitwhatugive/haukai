@@ -93,19 +93,19 @@ header {
 
 /* Define colour of alt, width and height for all different types of images used */
 
-#img2 {
+.img2 {
 	width: 100%;
 	height: 100%;
 	color: white;
 }
 
-#img3 {
+.img3 {
 	width: 120px;
 	height: 80px;
 	color: white;
 }
 
-#img4 {
+.img4 {
 	max-width: 100%;
 	color: white;
 }
