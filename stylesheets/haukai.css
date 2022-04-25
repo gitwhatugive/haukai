@@ -115,6 +115,7 @@ header {
 }
 
 .img4 {
+	float: left;
 	max-width: 100%;
 	color: white;
 }
