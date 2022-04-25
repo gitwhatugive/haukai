@@ -103,7 +103,9 @@ header {
 	width: 120px;
 	height: 80px;
 	color: white;
-	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .img4 {
