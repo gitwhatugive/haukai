@@ -19,7 +19,7 @@ header {
 
 /* Style the top navigation bar */
 .topnav {
-	background-color: gray;
+	background-color: lightgray;
 	font-size: 0.9rem;
 	margin: 0 auto;
 	display: flex; 
@@ -144,7 +144,7 @@ iframe {
 /*Define footer display characteristics */
 footer {
 	width: 100%;
-	background-color: gray;
+	background-color: lightgray;
 	color: blue;
 	text-align: center;
 	padding: 10px;
