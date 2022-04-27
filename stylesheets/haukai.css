@@ -11,7 +11,7 @@ body {
 	background-color: black;
 }
 
-/*Defines header background colour and padding size (1rem = 1x font size) */
+/* Defines header background colour and padding size (1rem = 1x font size) */
 header {
 	background-color: white;
 	padding: 0.5rem;
@@ -141,7 +141,7 @@ iframe {
 	width: 50%;
 }
 
-/*Define footer display characteristics */
+/* Define footer display characteristics */
 footer {
 	width: 100%;
 	background-color: lightgray;
@@ -158,25 +158,25 @@ footer {
 	text-align: left;
 }
 
-/*Set font sizes, text alignment and colours for different types of headings*/
+/* Set font sizes, text alignment and colours for different types of headings */
 h1 {
-	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /*Web linked font*/
+	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /* Web linked font */
 	color: darkred; 
 	font-size: 3rem;
-	font-weight: 600; /*Sets boldness of text. (range is 100-900, where 400 is normal and 700 is bold)*/
+	font-weight: 600; /* Sets boldness of text. (range is 100-900, where 400 is normal and 700 is bold) */
 	text-align: center;
 }
 
 h2 {
-	font-family: 'Mea Culpa';/*Web linked font*/
+	font-family: 'Mea Culpa';/* Web linked font */
 	color: white;
-	font-size: 1.5rem; /*Set the font size as 1.5 times bigger than default*/
+	font-size: 1.5rem; /* Set the font size as 1.5 times bigger than default */
 	text-align: center;
 }
 
-/*Set font sizes, margin position and colour for paragraph text*/	
+/* Set font sizes, margin position and colour for paragraph text */	
 p {
 	color: white;
-	font-size: 1rem; /*1rem = default size for particular font*/
+	font-size: 1rem; /* 1rem = default size for particular font */
 	text-align: center;
 }		
