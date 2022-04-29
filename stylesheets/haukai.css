@@ -118,7 +118,9 @@ header {
 /* If the device screen size is less than 641px, center align the images in these classes */  
 @media screen and (max-width: 640px) {
 	.img1 {
-		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
