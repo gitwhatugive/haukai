@@ -29,7 +29,7 @@ header {
 .topnav a {
 	color: blue;
 	text-align: center;
-	padding-right: 0.6rem;
+	padding-right: 0.5rem;
 }
 
 /* Define display where padding and border is included in the width and height */
