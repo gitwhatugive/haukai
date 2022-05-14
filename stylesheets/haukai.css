@@ -9,7 +9,6 @@ body {
 	width: 100%;
 	margin: 0;
 	background-color: black;
-	overflow: hidden;
 }
 
 /* Defines header background colour and padding size (1rem = 1x font size) */
