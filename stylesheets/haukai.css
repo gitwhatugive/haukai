@@ -127,7 +127,6 @@ header {
 /* Align iframe text */
 iframe {
 	text-align: center;
-	border: none;
 	width: 100%;
 }
 
