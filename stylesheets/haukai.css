@@ -29,7 +29,7 @@ header {
 .topnav a {
 	color: blue;
 	text-align: center;
-	padding-right: 0.6rem;
+	padding-right: 0.4rem;
 }
 
 /* Have the navigation links display vertically if viewport is less than 600 pixels*/
