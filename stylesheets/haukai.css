@@ -32,8 +32,8 @@ header {
 	padding-right: 0.4rem;
 }
 
-/* Have the navigation links display vertically if viewport is less than 600 pixels*/
-@media screen and (max-width: 600px) {
+/* Have the navigation links display vertically if viewport is less than 640 pixels*/
+@media screen and (max-width: 640px) {
 	.topnav a {
 	  float: none;
 	  width: 100%;
