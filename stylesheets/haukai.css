@@ -20,14 +20,14 @@ header {
 /* Style the top navigation bar */
 .topnav {
 	background-color: lightgray;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-align: center;
 }
 /* Style the topnav links */
 .topnav a {
 	color: blue;
 	text-align: center;
-	padding-right: 3rem;
+	padding-right: 1rem;
 }
 
 /* Have the navigation links display vertically if viewport is less than 640 pixels*/
