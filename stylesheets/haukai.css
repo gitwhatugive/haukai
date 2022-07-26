@@ -127,10 +127,10 @@ iframe {
 	text-align: center;
 }
 
-/* If the device screen is less than 641px, do not center iframe, and assign lower width */
+/* If the device screen is less than 641px, do not center iframe, and make it fill width of screen */
 @media screen and (max-width: 640px) {
 	.iframe {
-		align-self : left;
+		float : left;
 		width: 100%;
 	}
 }
