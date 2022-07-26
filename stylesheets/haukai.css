@@ -122,20 +122,6 @@ header {
 	}
 }
 
-/* Align iframe text 
-iframe {
-	text-align: center;
-}
-*/
-/* If the device screen is less than 641px, do not center iframe, and make it fill width of screen */
-@media screen and (max-width: 640px) {
-	.iframe {
-		float : left;
-		width: 100%;
-		border: 0;
-	}
-}
-
 /* Create class to center elements */
 .center {
 	display: block;
