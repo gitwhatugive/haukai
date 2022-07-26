@@ -30,14 +30,6 @@ header {
 	padding-right: 1.4rem;
 }
 
-/* Have the navigation links display vertically if viewport is less than 640 pixels*/
-@media screen and (max-width: 640px) {
-	.topnav a {
-	  float: none;
-	  width: 100%;
-	}
-  }
-
 /* Define display where padding and border is included in the width and height */
 * {
 	box-sizing: border-box;
