@@ -131,7 +131,7 @@ iframe {
 @media screen and (max-width: 640px) {
 	.iframe {
 		text-align: left;
-		width: 300px;
+		width: 100%;
 	}
 }
 
