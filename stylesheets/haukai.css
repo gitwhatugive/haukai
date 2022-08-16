@@ -36,7 +36,7 @@ header {
 }
   
 /* Create three equal columns that float next to each other and define column characteristics */
-.column {
+.column3 {
 	float: left;
 	width: 33%;
 	padding-bottom: 1vw;
