@@ -48,38 +48,38 @@ header {
 /* If the device screen size is less than 640px, display columns on top of each other */  
 @media screen and (max-width: 640px) {
 	.column {
-		width: 100%;
+	width: 100%;
 	}
 }
  
 /* If the device screen size is more than 640px, display all columns next to each other */  
 @media screen and (min-width: 641px) {
-	  .column {
-		  width: 33%;
-  	  }
+	.column {
+	width: 33%;
+  	}
 }
 
 /* Create two equal columns that float next to each other and define column characteristics */
 .column2 {
-	  float: left;
-	  width: 50%;
-	  padding: 1vw;
-	  font-size: 2vw;
-	  background-color: black;
+	float: left;
+	width: 50%;
+	padding: 1vw;
+	font-size: 2vw;
+	background-color: black;
 }
 
 /* If the device screen size is less than 640px, display columns on top of each other */	
 @media screen and (max-width: 640px) {
-	  .column2 {
-		  width: 100%;
-	  }
+	.column2 {
+	width: 100%;
+	}
 }
 
 /* If the device screen size is more than 640px, display all columns next to each other */	
 @media screen and (min-width: 641px) {
-		.column2 {
-			width: 50%;
-		}
+	.column2 {
+	width: 50%;
+	}
 }
 
 /* Ensure there is no content after each element */
@@ -116,9 +116,9 @@ header {
 /* If the device screen size is less than 641px, center align the images in these classes */  
 @media screen and (max-width: 640px) {
 	.img1 {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	}
 }
 
