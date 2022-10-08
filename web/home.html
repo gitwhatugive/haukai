@@ -29,6 +29,17 @@
             <i class="fa fa-bars"></i></a> <!-- Load an icon library to show dropdown menu on small screens -->
         </div>
       </nav>
+      <!-- JavaScript function to display and hide menu on small screens -->
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
         <!-- Main content of the page -->
         <main>
           <div class="w3-container w3-hover-sepia">
