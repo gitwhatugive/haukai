@@ -11,75 +11,63 @@ body {
 	background-color: black;
 }
 
-/* Defines header background colour and padding size (1rem = 1x font size) */
-header {
-	background-color: lightgray;
-	padding: 0.5rem;
-}
-
 /* Style the top navigation bar */
+
 .topnav {
-	background-color: lightgray;
-	font-size: 1.4rem;
+	position: relative;
+	overflow: hidden;
+	background-color: #333;
 	text-align: center;
-}
-/* Style the topnav links */
-.topnav a {
-	color: blue;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
 	text-align: center;
-	padding-right: 1.4rem;
-}
+	padding: 14px 10px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+  
+  .topnav-centered a {
+	float: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  .topnav-right {
+	float: right;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+	.topnav a, .topnav-right {
+	  float: none;
+	  display: block;
+	}
+	
+	.topnav-centered a {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  transform: none;
+	}
+  }
 
 /* Define display where padding and border is included in the width and height */
 * {
 	box-sizing: border-box;
-}
-  
-/* Create three equal columns that float next to each other and define column characteristics */
-.column3 {
-	float: left;
-	width: 33%;
-	padding-bottom: 1vw;
-	padding-right: 1vw;
-	font-size: 2vw;
-	background-color: black;
-}
-
-/* If the device screen size is less than 640px, display columns on top of each other */  
-@media screen and (max-width: 640px) {
-	.column {
-	width: 100%;
-	}
-}
- 
-/* If the device screen size is more than 640px, display all columns next to each other */  
-@media screen and (min-width: 641px) {
-	.column {
-	width: 33%;
-  	}
-}
-
-/* Create two equal columns that float next to each other and define column characteristics */
-.column2 {
-	float: left;
-	width: 50%;
-	padding: 1vw;
-	font-size: 2vw;
-	background-color: black;
-}
-
-/* If the device screen size is less than 640px, display columns on top of each other */	
-@media screen and (max-width: 640px) {
-	.column2 {
-	width: 100%;
-	}
-}
-
-/* If the device screen size is more than 640px, display all columns next to each other */	
-@media screen and (min-width: 641px) {
-	.column2 {
-	width: 50%;
-	}
 }
 
 /* Ensure there is no content after each element */
@@ -87,57 +75,6 @@ header {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-/* Define colour of alt, width and height for all different types of images used */
-
-.img1 {
-	color: white;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-}
-
-.img2 {
-	width: 100%;
-	height: 100%;
-	color: white;
-}
-
-.img3 {
-	color: white;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 33%;
-}
-
-/* If the device screen size is less than 641px, center align the images in these classes */  
-@media screen and (max-width: 640px) {
-	.img1 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	}
-}
-
-/* Create class to center elements */
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-/* Define footer display characteristics */
-footer {
-	width: 100%;
-	background-color: lightgray;
-	color: blue;
-	text-align: center;
-	padding: 10px;
-	font-size: 0.6rem;
 }
 
 /* Define characteristics for the privacy statement */
@@ -148,13 +85,6 @@ footer {
 }
 
 /* Set font sizes, text alignment and colours for different types of headings */
-h1 {
-	font-family: Courgette,'Comic Sans MS',cursive,sans-serif; /* Web linked font */
-	color: darkred; 
-	font-size: 3rem;
-	font-weight: 600; /* Sets boldness of text. (range is 100-900, where 400 is normal and 700 is bold) */
-	text-align: center;
-}
 
 h2 {
 	font-family: 'Mea Culpa';/* Web linked font */
