@@ -73,6 +73,18 @@ body {
 	}
   }
 
+/* Define display where padding and border is included in the width and height */
+* {
+	box-sizing: border-box;
+}
+
+/* Ensure there is no content after each element */
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /* Set font sizes, text alignment and colours for different types of headings */
 
 h2 {
