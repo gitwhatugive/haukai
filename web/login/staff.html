@@ -4,20 +4,21 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Staff Info & Roster</title>
-        <link rel="stylesheet" href="../stylesheets/haukai.css">
+        <title>About Us</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="./stylesheets/haukai.css">
     </head>
     <!-- Includes all the page's visible content -->
     <body>
       <!-- Includes all the page's visible sections (header, navigation bar, main content, and footer) -->
-      <header class="header">      
-          <h1>STAFF INFO & ROSTER</h1>
+      <header class="w3-container w3-sand w3-text-red w3-center">      
+          <h1>ABOUT US</h1>
       </header>
       <!-- Navigation bar with hyperlinks for the relevant website pages -->
       <nav class="topnav">
-        <div>
+        <div class="topnav-centered">
           <a href = "../home.html"> HOME </a>
-          <a href = "../about.html"> ABOUT </a> 				
+          <a href = "../about.html" class="active"> ABOUT </a> 				
           <a href = "../contact.html"> CONTACT </a>
           <a href = "../hours.html"> HOURS </a>
           <a href = "../menu.html"> MENU </a>
@@ -27,27 +28,49 @@
       </nav>
       <!-- Main content of the page -->
       <main>
-        <div class="row">
-          <div class="column2">
-            <img class="img2" src="../images/contacts.png" alt="Staff members names, positions, and contact info">
+        <div class="w3-panel w3-indigo">
+        <p>We are Aroha and Benny, two Kiwi entrepeneurs with a vision to share Maori culture and customs with the rest of the world...all while feeding them delicious traditional Maori food (kai).</p>
+        <p>Maori are the people of the land, or <em>tengata whenua</em>, who have lived in Aotearoa (New Zealand) for over 700 years.</p>
+        </div>
+        <div class="w3-row">
+          <div class="w3-third w3-container w3-center">
+              <div class="w3-card-4" style="width:100%">
+              <img src="../images/maori_women.jpg" style="width:100%" alt="A group of Maori women in traditional clothes">
+                <div class="w3-container w3-center">
+                  <p>A group of Maori women in traditional clothes</p>
+                </div>
+              </div>
           </div>
-          <div class="column2">
-            <img class="img2" src="../images/team.jpg" alt="Staff members photo">
+          <div class="w3-third w3-container w3-center">
+            <div class="w3-card-4" style="width:100%">
+            <img src="../images/maori_men.jpg" style="width:100%" alt="A group of Maori men in traditional clothes, holding spades in front of a marae.">
+              <div class="w3-container w3-center">
+                <p>A group of Maori men in traditional clothes, holding spades in front of a marae</p>
+              </div>
+            </div>
           </div>
-        </div>  
-        <div class="row">
-          <div class="column2">
-            <img class="img2" src="../images/week1.png" alt="Roster for week ending 8/10/2022">
-          </div>
-          <div class="column2">
-            <img class="img2" src="../images/week2.png" alt="Roster for week ending 15/10/2022">
+          <div class="w3-third w3-container w3-center">
+            <div class="w3-card-4"  style="width:100%">
+            <img src="../images/maori_sculpture.jpg" style="width:100%" alt="Traditional Maori sculpture with ornate carvings">
+              <div class="w3-container w3-center">
+                <p>Traditional Maori sculpture with ornate carvings</p>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="w3-panel w3-indigo">
+        <p>If you'd like to know more about the Maori culture and history, you can visit the following resources: 
+          <a class="a" href="https://www.newzealandnow.govt.nz/live-in-new-zealand/tips-for-settling-in/maori-culture">Maori culture</a> and 
+          <a class="a" href="https://teara.govt.nz/en/maori">Maori history</a>
+        </p> 
+      </div> 
       </main>
       <!-- Footer that is used across all the pages of the website -->
-      <footer class="footer">
+      <footer class="w3-container w3-sand w3-text-red w3-center">
         <a class="topnav" href = "./privacy.html" > PRIVACY STATEMENT </a>
-          <p>©Copyright 2022</p>
+        <br>  
+        <br>
+        ©Copyright 2022
       </footer>
     </body>
 </html>
