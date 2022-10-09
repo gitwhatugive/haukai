@@ -38,11 +38,6 @@ body {
 	color: white;
   }
 
-  .topnav-centered a {
-	top: 50%;
-	left: 50%;
-  }
-  
   .topnav .icon {
 	display: none;
   }
