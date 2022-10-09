@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Us</title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./stylesheets/haukai.css">
     </head>
     <!-- Includes all the page's visible content -->
@@ -15,7 +16,7 @@
           <h1>ABOUT US</h1>
       </header>
       <!-- Navigation bar with hyperlinks for the relevant website pages -->
-      <nav class="topnav">
+      <nav class="topnav" id="myTopnav">
         <div class="topnav-centered">
           <a href = "./home.html"> HOME </a>
           <a href = "./about.html" class="active"> ABOUT </a> 				
@@ -24,8 +25,20 @@
           <a href = "./menu.html"> MENU </a>
           <a href = "./bookings.html"> BOOK </a>
           <a href = "./login/staff.html"> STAFF </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a> <!-- Load an icon library to show dropdown menu on small screens -->
         </div>
       </nav>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
       <!-- Main content of the page -->
       <main>
         <div class="w3-panel w3-indigo">
