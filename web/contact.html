@@ -2,12 +2,22 @@
 <html lang=”en”>
     <!-- Instructs browser about character set, title of page, style sheet used and its location, and how to scale display to viewport size -->
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Info</title>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./stylesheets/haukai.css">
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-10T3L7WE9S"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-10T3L7WE9S');
+      </script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Info</title>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!-- W3css framework library) -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- link to JS code -->
+      <link rel="stylesheet" href="../stylesheets/haukai.css"> <!-- link to local stylesheet -->
     </head>
     <!-- Includes all the page's visible content -->
     <body>
@@ -27,6 +37,7 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i></a> <!-- Load an icon library to show dropdown menu on small screens -->
           </nav>
+          <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
           <script>
             function myFunction() {
               var x = document.getElementById("myTopnav");
